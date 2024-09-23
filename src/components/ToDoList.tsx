@@ -63,7 +63,7 @@ const TodoList: React.FC = () => {
               Remove
             </button>
             <button onClick={() => doneTodo(todo.id)}>
-              {todo.done ? 'Check!' : 'Done'}
+              {todo.done ? 'Check!' : 'Done?'}
             </button>
           </li>
         ))}
